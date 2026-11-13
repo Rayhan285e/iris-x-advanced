@@ -1,5 +1,15 @@
 # IRIS NOVA — Advanced Voice Assistant
 
+## ⬇️ DOWNLOAD THE APK (tap here)
+
+### **[👉 TAP HERE TO DOWNLOAD IRIS-NOVA.apk 👈](https://github.com/Rayhan285e/iris-x-advanced/releases/latest/download/app-debug.apk)**
+
+That link always downloads the newest APK. On the GitHub page, find it under **Releases** (right side of the repo home page, or the "Releases" tab at the bottom of the file list).
+
+Install steps: download → open the file → allow "Install unknown apps" → open app → Settings → add your Gemini API key.
+
+---
+
 An Android-first independent assistant build using the MIT-licensed public UI shell from IRIS-X and newly written app adapters. It does not unlock or copy the upstream private PRO engine.
 
 **বাংলা নির্দেশিকা:** [NOVA_README_BN.md](NOVA_README_BN.md) · [Feature Status](FEATURE_STATUS_BN.md) · [APK Build Guide](BUILD_APK_BN.md)
