@@ -77,8 +77,4 @@ class IrisAcousticStreamer {
             Log.e(TAG, "Error stopping AudioRecord", e)
         }
     }
-
-    companion object {
-        private const val TAG = "IrisAcousticStreamer"
-    }
 }
