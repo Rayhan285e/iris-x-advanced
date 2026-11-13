@@ -11,9 +11,12 @@ import kotlin.math.sqrt
 
 class IrisAcousticStreamer {
 
-    private const val SAMPLE_RATE = 44100
-    private const val CHANNEL_CONFIG = AudioFormat.CHANNEL_IN_MONO
-    private const val AUDIO_FORMAT = AudioFormat.ENCODING_PCM_16BIT
+    companion object {
+        private const val SAMPLE_RATE = 44100
+        private const val CHANNEL_CONFIG = AudioFormat.CHANNEL_IN_MONO
+        private const val AUDIO_FORMAT = AudioFormat.ENCODING_PCM_16BIT
+        private const val TAG = "IrisAcousticStreamer"
+    }
 
     private val isRecording = AtomicBoolean(false)
     private val scope = CoroutineScope(Dispatchers.IO + SupervisorJob())
